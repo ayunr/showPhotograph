@@ -1,0 +1,118 @@
+/**a:hover{
+	text-decoration: none;
+}*/
+#nav_top{
+	width: 100%;
+	height: 90px;
+	background-color: #000000;
+}
+#nav_top .content{
+	width: 1000px;
+	height: 90px;
+	line-height: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+#nav_top ul{
+	height: 74px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#nav_top ul li{
+	height: 52px;
+	float: left;
+	text-align: center;
+	line-height: 22px;
+	padding: 20px 14px 0 16px;
+	margin:0 18px;
+}
+#nav_top ul li a{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#nav_top ul li p>a{
+	font-size: 10px;
+}
+/*添加白色上边框 样式*/
+.showline{
+	border-top: 4px solid #FFFFFF;
+}
+/*居中分类标题*/
+.title{
+	background-image: url(../imgs/box.png);
+	background-repeat: no-repeat;
+	width: 324px;
+	height: 116px;
+	margin: 0 auto;
+	text-align: center;
+}
+.title  p{
+	font-size: 31px;
+	color: #454545;
+	line-height: 32px;
+}
+.title p.en_name{
+	font-size: 18px;
+}
+
+#foot{
+	width: 100%;
+	height:518px;
+	background-color: #000000;
+	margin-top: 64px;
+	text-align: center;
+}
+#foot >p{
+	margin-top: 18px;	
+	font-size: 38px;
+	color: #FFFFFF;
+}
+#foot img{
+	margin-top: 16px;
+}
+
+#foot ul.title_class{
+	height: 54px;
+	width: 940px;
+	padding-top: 54px;
+	margin: 0 auto;
+}
+#foot ul.title_class li{
+	height: 40px;
+	width: 155px;
+	border-right: 2px solid #FFFFFF;
+	float: left;
+	text-align: center;
+}
+#foot .title_class li.last{
+	border-right: none;
+}
+#foot .title_class li a{
+	font-size: 20px;
+	color: #8edcd6;
+}
+#foot .title_class P>a{
+	font-size: 10px;
+	line-height: 20px;
+}
+#foot ul.icon{
+	width: 1006px;
+	height: 140px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+#foot .icon li{
+	height: 130px;
+	width: 335px;
+	float: left;
+}
+#foot .icon p{
+	display: block;
+	margin-top: 16px;
+	font-size: 16.7px;
+	color: #8edcd6;
+}
+#foot .icon p.small{
+	font-size: 14.5px;
+}
